@@ -1,0 +1,205 @@
+body{
+    background-image: url(images/img-20181201-wa0005.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+nav {
+    height: 100px;
+    background-color: #cdc4c4ad
+}
+nav div img{
+    height: 95px;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav div div ul li a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #1a1919be;
+    margin-right: 20px;
+    
+}
+
+
+.logoutAdmin{
+    background-color: #ebb209db;
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 5px;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+
+.logoutAdmin:hover{
+    color: rgba(0, 0, 0, 0.559);
+    
+}
+
+nav div div ul li a:hover{
+    color: #fff;
+    border-bottom: 3px solid  #fff;
+    
+    
+}
+.logoutAdmin:hover{
+    background-color: #ebb309a0;
+
+}
+.containerFormAdmin .nom-prenom,
+.containerFormAdmin .school-email,
+.containerFormAdmin .level-classe,
+.containerFormAdmin .serie-field,
+.containerFormAdmin .date-place{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+}
+.containerFormAdmin form .nom-prenom input,
+.containerFormAdmin form .school-email input,
+.containerFormAdmin form .school-email select,
+.containerFormAdmin .level-classe select,
+.containerFormAdmin .serie-field select,
+.containerFormAdmin .date-place input{
+    width:45%;
+    
+}
+.containerFormAdmin .date-place .date{
+    width: 30%;
+    text-align: center;
+}
+.containerFormAdmin .date-place .datel{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    color: #fff;
+
+}
+
+.home-admin{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.back-g-admin{
+    background-color: #ddd6d1a7;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.home-admin .nmbr_etudiants{
+    background-color: #d8d6c488;
+    border-radius: 40px;
+    padding: 20px;
+    border: 3px solid #ddd6d1a7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: -5px 5px 10px #c5c09888;
+    height: 70%;
+}
+
+.home-admin .nmbr_classes{
+    background-color: #d8d6c488;
+    border-radius: 40px;
+    padding: 20px;
+    border: 3px solid #ddd6d1a7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: -5px 5px 10px #c5c09888;
+    height: 70%;
+}
+
+
+.accueil {
+    height: 100%;
+    width: 100%;
+    background: url(https://images.unsplash.com/photo-1511576661531-b34d7da5d0bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.accueil h1 {
+    font-size: 120px;
+    margin-bottom: 450px;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width:1110px){
+   
+    nav div div form .recherche{
+        width: 140px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .containtAdmin{
+        background-color: #676366c2;
+        width: 100%;
+        height: 100vh;
+        display: inline-block;
+        text-align: center;
+        padding: 40px;
+        z-index: 5;
+    }
+    nav div div form{
+        margin-bottom: 20px;
+    }
+    nav div div form input{
+        width: 100px;
+    }
+    nav div div ul li a, nav div div ul li .etablissment{
+        font-size: 1.4em;
+        color: #fff
+        
+    }
+    nav div div form .recherche{
+        width: 90%;
+    }
+    
+
+}
+
+@media screen and (max-width:773px){
+   
+    .containerFormAdmin form .nom-prenom input,
+.containerFormAdmin form .school-email input,
+.containerFormAdmin form .school-email select,
+.containerFormAdmin .level-classe select,
+.containerFormAdmin .serie-field select,
+.containerFormAdmin .date-place input{
+    width:90%;
+    
+}
+
+}

@@ -1,0 +1,294 @@
+.fond{
+    background-image: url(images/img-20181201-wa0005.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.formFound{
+    background-color: rgba(246, 244, 241, 0.804);
+    height: 1250px;
+    width:20%;
+    padding: 15px;
+}
+
+.input{
+    position: absolute;
+    width: 410px;
+    height: 84px;
+    left: 35px;
+    top: 609px;
+    background: #F1F3F6;
+    border-radius: 35px;
+}
+.logo{
+    width: 100%;
+}
+.titre{
+    text-align: center;
+}
+
+.déconnexion{
+    right: 300px;
+}
+
+
+.container-3{
+    background-color: black;
+}
+
+nav{
+    height:150px;
+    text-align: center;
+    z-index: 2; 
+}
+
+
+nav img{
+    height:100px;
+    width:150px;
+    margin-right:300px;
+    margin-left: 100px;
+}
+
+.body-1{
+   
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.countainer-profil{
+    width: 350px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-profil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -50px;
+}
+.main-profil h1{
+    text-align: center;
+}
+.main-profil div .profile_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-profil img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    bottom: -10px;
+    border: 5px solid #fff;
+    z-index: 1;
+}
+
+.main-profil  .btn-profile{
+    position: relative;
+    top: -13px;
+    left: 60px;
+    color: #fff;
+}
+
+.main-profil .texte{
+    text-align: center;
+    margin-right: 30px;
+    list-style: none;
+
+}
+
+
+.déconnexion{
+    border-radius: 35px;
+    margin-left:80px;
+
+}
+
+.déconnexion a{
+    text-decoration: none; 
+    color:black;
+}
+
+.déconnexion:hover{
+    background: linear-gradient(#d0ac34, #dc8922);
+    border: none;
+    transition: 0.9s;
+    color: #F1F3F6;
+}
+
+.déconnexion a:hover{
+    color: #F1F3F6;
+}
+
+
+
+
+
+
+@media screen and (max-width:1230px){
+
+    .formFound{
+        width:30%;
+        transition: 0.5s;
+    }
+/*.main-profil img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 80px;
+    bottom: -10px;
+    z-index: 1;
+}*/
+    
+
+}
+
+@media screen and (max-width:930px){
+    
+    .fond{
+        background-image: url(images/bac-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    }
+    
+    .formFound{
+        width:40%;
+        transition: 0.5s;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    .formFound{
+        width:50%;
+        transition: 0.5s;
+    }
+}
+
+
+@media screen and (max-width:470px) {
+    .formFound{
+        width:100%;
+        transition: 0.5s;
+    }
+
+    .main-connexion .logo{
+        width: 70%;
+        height: auto;
+        position: relative;
+        left: 50px;
+        top: 20px;
+    }
+
+    .main-connexion h1{
+        margin-top: 30px;
+        font-size:2.5em;
+    }
+    .main-connexion form{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:1320px) {
+    nav img{
+        height:90px;
+        margin-right:100px;
+}
+}
+@media screen and (max-width:1080px) {
+    .body-1{
+   
+        background-image: url(images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    nav img{
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width:1468px) {
+    nav img{
+        height:90px;
+        margin-right:200px;}
+}
+@media screen and (max-width:1468px) {
+    nav img{
+        height:90px;
+        margin-right:20px;
+    }
+    element.style {
+        padding-left: 143px;
+    }
+    .déconnexion{
+        margin-right:10px;
+    }
+}
+
+@media screen and (max-width:1115px) {
+    
+    .navbar {
+        padding-left: 10px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+        nav img{
+        height:90px;
+        margin-right:8px;
+    }
+        .container-fluid{
+            background-color: #f1f3f6d7;
+        }
+        .navbar-nav li{
+            width: 336px;
+        }
+        .déconnexion{
+            width:250px;
+            padding: 8px;
+            border: none;
+            background: linear-gradient(#d0ac34, #dc8922) ;
+            position: relative;
+            right: 70px;
+            margin-left: 100px;
+        }
+
+        .active{
+            position: relative;
+            left: 35px;
+            width: 250px;   
+        }
+
+}
+
+@media screen and (max-width:350px) {
+    .body-1{
+   
+        background-image: url(images/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .navbar {
+        padding-left: 10px;
+        width: 100%;
+    }
+    li{
+        margin: 0px;
+    }
+
+}

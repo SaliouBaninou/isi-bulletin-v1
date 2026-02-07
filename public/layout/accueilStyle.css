@@ -1,0 +1,289 @@
+
+
+.nav-accueil{
+    background-color:#fff;
+    width: 100%;
+    height: auto;
+    height:150px;
+    text-align: center;
+}
+
+
+
+nav .nav-link{
+    /*texte navbar*/
+    display: block;
+    padding: 15px;
+    margin: 9px 0;
+    
+}
+/* subrillance des selecteurs de la navbar
+nav .nav-link:hover{
+    color:#d0ac34, #dc8922 ;
+}*/
+
+.row{
+    /*position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+}
+
+
+.a-propos{
+    background-color:#fff;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position:relative;
+    gap: 30px;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+}
+
+.a-propos .image img{
+    width: 100%;
+    height: auto;
+}
+
+.p1,.image{
+    /*justify-content:left;*/
+    height: 100%;
+    width: 45%;
+    color:#888;
+    text-align: start;
+    padding: 20px;
+}
+.p2{
+    color:#000;
+}
+.bannerb .banner1, .bannerb .banner2{
+    width: 50%;
+    height: 100%;
+}
+.bannerb {
+    width: 100%;
+    height:500px;
+ 
+    background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding-top: 40px;
+    padding-bottom: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bannerb .fond3{
+    height: auto;
+    width: 100%;
+}
+.bannerb .banner1{
+    text-align:center;
+    padding-left: 150px;
+}
+
+.bannerb .banner1 h1{
+    font-size: 30px;
+    /*font-weight: normal;*/
+    margin-top: 70px;
+    margin-bottom: 20px;
+    width: 50%;
+    
+}
+
+.bannerb .banner1 p{
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*.bannerb .img-welcome{
+    padding-left: -30px;
+}*/
+
+.apropos{
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #0000009d;
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+}
+footer {
+    background-color: #000000c6;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    color: #fff;
+    padding: 30px;
+}
+footer address{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+}
+footer address .contact{
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid #fff;
+    padding: 40px;
+    height: 100%;
+}
+footer address a,.numero{
+    color: #fff;
+    text-decoration: none;
+}
+footer address a:hover,.numero:hover{
+    transition: all 0.6s;
+    color: #d0ac34;
+}
+footer address .localisation{
+    border-right: 2px solid #fff;
+    padding: 40px;
+    height: 100%;
+}
+.profile-box{
+    height: 200px;
+    height: 400px;
+
+}
+
+
+
+.apropos .profile-box img{
+    border-radius: 100%;
+    border: 5px solid #fff;
+    width: 260px;
+    height: 260px;
+}
+
+.apropos .profile-box{
+    padding-bottom: 90px;
+}
+
+
+.home-logo{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .bannerb .fond3{
+        height: 600px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:921px) {
+    .apropos{
+        height: 1240px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+    .bannerb{
+        height: 800px;
+        display: flex;
+        padding-right: 0;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      
+    }
+    .bannerb .banner1{
+        padding: 30px;
+        height: 50%;
+
+    }
+
+    .a-propos{
+        height: 850px;
+        padding: 10px;
+    }
+    .a-propos .p1{
+        width: 100%;
+        height: 200px;
+    }
+    .a-propos .image{
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+}
+
+.connexion {
+    background-color: #d0ac34;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid #d9bf11ae;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: -5px 10px 10 #deab05db;
+}
+
+@media screen and (max-width:800px) {
+    .bannerb {
+        padding: 0;
+        display:block;
+    }
+    .bannerb .banner1{
+        padding: 5px;
+        height: 180px;
+    }
+    .bannerb .banner2,.bannerb .banner1{
+        width: 100%;
+    }
+   
+}
+@media screen and (max-width:613px) {
+    .bannerb .banner1{
+        padding: 5px;
+        height: 200px;
+    }
+    
+}
+@media screen and (max-width:466px) {
+    .bannerb .banner1{
+        padding: 5px;
+        height: 230px;
+    }
+    .a-propos{
+        height: 1000px;
+        padding: 10px;
+    }
+    
+}
+@media screen and (max-width:384px) {
+    .bannerb .banner1{
+        padding: 5px;
+        height: 300px;
+    }
+    .a-propos{
+        height: 1100px;
+        padding: 10px;
+    }
+}
